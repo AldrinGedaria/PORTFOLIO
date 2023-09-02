@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Finlandica&display=swap" rel="stylesheet">
+    <script async src="https://basicons.xyz/embed.js"> </script>
+    <!-- no labela atm -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- big-text-animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+    <!-- smooth scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+
+    <title>PORTFOLIO | ALDRIN GEDARIA</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico.svg">
+</head>
+<body>
+    <div class="cursor"></div>
+    <canvas></canvas>
+
+    <section id="home" class="home">
+        <div class="name-container">
+            <div class="border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H16V0H1H0V1V16H1L1 1Z" fill="#757A4E"/>
+                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 15L0.999999 -4.37114e-08L-6.99382e-07 0L-4.37114e-08 15L0 16L1 16L16 16L16 15L1 15Z" fill="#757A4E"/>
+                  </svg>
+            </div>
+            <div id="name" class="name">
+                <a href="index.html">
+                    <h1 class="aldrin">aldrin <span class="sticker-wrapper">
+                        <img src="img/sticker-wrapper.png" alt="sticker">
+                      </span>gedaria</h1>
+                </a>
+            </div>
+            <div class="border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 1L15 16L16 16L16 1L16 0L15 -4.37114e-08L0 -6.99382e-07L-4.37114e-08 1L15 1Z" fill="#757A4E"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 15L8.74228e-08 15L0 16L15 16L16 16L16 15L16 0L15 -8.74228e-08L15 15Z" fill="#757A4E"/>
+                  </svg>
+            </div>
+            </div>
+        <div id="about-container" class="about-container">
+            <div id="about" class="about about-margin">
+                <h5 id="about-text" class="about-text">about me</h5>
+                <div class="line line-1"></div>
+                <p>01</p>
+            </div>
+            <div id="about-subtext" class="about-subtext">
+                <div class="about-subtext-1">
+                    <p class="text-1">AS A LIFELONG LEARNER, I CONSTANTLY IMMERSE MYSELF IN THE EVER-EVOLVING WORLD OF DESIGN, EAGERLY EMBRACING NEW 
+                        TRENDS, TECHNIQUES, AND TECHNOLOGIES. THIS DRIVE FOR GROWTH FUELS MY DESIRE TO PUSH BOUNDARIES AND EXPLORE 
+                        INNOVATIVE SOLUTIONS FOR EVERY DESIGN CHALLENGE THAT COMES MY WAY.</p>
+
+                    <p class="text-2">THIS PORTFOLIO WEBSITE SERVES AS A WINDOW INTO MY CREATIVE WORLD, SHOWCASING A COLLECTION OF MY FINEST WORKS. I 
+                        INVITE YOU TO EXPLORE EACH PROJECT, IMMERSE YOURSELF IN THE NARRATIVES THEY CONVEY, AND WITNESS THE PASSION AND 
+                        DEDICATION I POUR INTO MY CRAFT. </p>
+                </div>
+
+                <div  class="about-subtext-2">
+                    <p>TAKE THE NEXT STEP IN UNCOVERING MY PROFESSIONAL NARRATIVE BY CLICKING THE LINK BELOW.</p>
+                    <div id="cv" class="cv">
+                        <div class="cv-border">
+                        <p>VIEW CV</p>
+                        <img src="img/arrow-right-up.svg" alt="arrow">
+                        </div>
+                        <p class="year">2023</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="about-subtext-3">
+                <div class="position-container">
+                <div id="position-1" class="position-1">
+                    <div class="email-me email-me-animation">
+                        <p>EMAIL ME</p>
+                        <img src="img/arrow-right-up.svg" alt="arrow">
+                    </div>
+                    
+                    <p><span class="dot"></span>AVAILABLE FOR WORK</p>
+                </div>
+                <div id="position-2" class="position-2">
+                    <p>ALDRINGEDARIA@GMAIL.COM</p>
+                    <p>GRAPHIC DESIGNER</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="marquee2">
+            <div class="marquee-content scroll">
+                <h2>LET THE VISUALS DO THE TALKING</h2>
+                <div class="rotation">
+                <img src="img/asset1.png" alt="asset-1">
+                </div>
+            </div>
+            <div class="marquee-content scroll">
+                <h2>LET THE VISUALS DO THE TALKING</h2>
+                <div class="rotation">
+                <img src="img/asset1.png" alt="star">
+                </div>
+            </div>
+            <div class="marquee-content scroll">
+                <h2>LET THE VISUALS DO THE TALKING</h2>
+                <div class="rotation">
+                <img src="img/asset1.png" alt="asset-1">
+                </div>
+            </div>
+            <div class="marquee-content scroll">
+                <h2>LET THE VISUALS DO THE TALKING</h2>
+                <div class="rotation">
+                <img src="img/asset1.png" alt="asset-1">
+                </div>
+            </div>
+            <div class="marquee-content scroll">
+                <h2>LET THE VISUALS DO THE TALKING</h2>
+                <div class="rotation">
+                <img src="img/asset1.png" alt="asset-1">
+                </div>
+            </div>
+            <div class="marquee-content scroll">
+                <h2>LET THE VISUALS DO THE TALKING</h2>
+                <div class="rotation">
+                <img src="img/asset1.png" alt="asset-1">
+                </div>
+            </div>
+            <div class="marquee-content scroll">
+                <h2>LET THE VISUALS DO THE TALKING</h2>
+                <div class="rotation">
+                <img src="img/asset1.png" alt="asset-1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div id="about" class="about">
+                <h5 id="about-text" class="about-text">work experience</h5>
+                <div class="line line-2"></div>
+                <p>02</p>
+        </div>
+        <div class="experience-container">
+            <div id="experience-text" class="experience-text">
+                <div class="experience-company">
+                    <div class="job-title">
+                    <h5>FREELANCING</h5>
+                    <p class="exp-year">NOW</p>
+                    </div>
+                        <div class="company">
+                            <p>GRAPHIC DESIGNER</p>
+                            <div class="read-me">
+                                <p class="soon">SOON</p>
+                            </div>
+                        </div>
+                        <div class="experience-description experience-soon">
+                            <p>crafting impactful visual elements that include an array of services such as social media materials, logos, icons, and typefaces. </p>
+                        </div>
+                </div>
+                <div class="experience-company">
+                    <div class="job-title">
+                    <h5>ENRI UPVC AND ALUMINUM</h5>
+                    <p class="exp-year">2022</p>
+                    </div>
+                        <div class="company">
+                            <p>SMM & GRAPHIC DESIGNER</p>
+                            <div class="read-me">
+                                <p>READ</p>
+                                <img src="img/arrow-right-up.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                            <p>a commission-based job, wherein my primary responsibilities encompass addressing client inquiries and conceptualizing social media materials.</p>
+                        </div>
+                </div>
+                <div class="experience-company">
+                    <div class="job-title">
+                    <h5>SIGNOPSYS INC</h5>
+                    <p class="exp-year">2022</p>
+                    </div>
+                        <div class="company">
+                            <p>MULTIMEDIA DESIGNER</p>
+                            <div class="read-me">
+                                <p>READ</p>
+                                <img src="img/arrow-right-up.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="experience-description">
+                            <p>Creating engaging visual content using various design tools and software. I COLLABORATED WITH OTHER DEPARTMENTS IN SEVERAL PROJECTS AND EVENTS. I briefly led the marketing department, showcasing leadership skills, and earned awards for outstanding performance and leadership.</p>
+                        </div>
+                </div>
+            </div>
+
+            <div class="cross">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="56" viewBox="0 0 32 56" fill="none" class="half-cross">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H0V56H4V30H32V26H4V0Z" fill="#757A4E"/>
+                  </svg>
+        
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="56" viewBox="0 0 32 56" fill="none" class="half-cross">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M32 0H28V26H0V30H28V56H32V0Z" fill="#757A4E"/>
+                </svg>
+            </div>
+            
+            <div class="qualification-outer">
+                <div class="qualification">
+                    <h2>What I Use?</h2>
+                </div>
+        
+                <div class="software-outer">
+                    <div class="software">
+                        <p>adobe photoshop</p>
+                        <p>adobe illustator</p>
+                        <p>figma</p>
+                        <p>canva</p>
+                        <p>webflow</p>
+                        <p>html</p>
+                        <p>css</p>
+                        <p>javascript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text-animation" id="text-animation">
+        
+         <div class="radius">
+        <div class="text">
+          <p>THIS PORTFOLIO WEBSITE</p>
+          <p>SERVES AS A WINDOW</p>
+          <p>INTO MY CREATIVE WORLD.</p>
+          <p>EXPLORE EACH PROJECT,</p>
+          <p>AND WITNESS THE DEDICATION</p>
+          <p>I POUR INTO MY CRAFT.</p>
+        </div>
+        </div>
+
+    </section>
+
+    
+
+    <section id="projects-section" class="projects-section">
+        <div id="about" class="about">
+                <h5 id="about-text" class="about-text">projects</h5>
+                <div class="line line-3"></div>
+                <p>03</p>
+        </div>
+        <div class="projects">
+            <ul>
+                <li class="list-container">
+                    <a href="#home">
+                    <div class="link-wrapper">
+                    <p>01</p>
+                    <h3>GRAPHIC EXPERIMENTATION</h3>
+                    </div>
+                    <div class="hover-text">
+                    <p>This collection unveils a mesmerizing fusion of typographic compositions, colors, forms, and textures, 
+                        pushing the limits of traditional graphic design.
+                    </p>
+                    </div>
+                </a>
+                </li>
+
+                <li class="list-container">
+                    <a href="#home">
+                    <div class="link-wrapper">
+                    <p>02</p>
+                    <h3>LOGO</h3>
+                    </div>
+                    <div class="hover-text">
+                    <p>Each logo represents a fusion of creativity and strategy, distilling the essence of a brand into a single iconic symbol.
+                    </p>
+                    </div>
+                </a>
+                </li>
+
+                <li class="list-container">
+                    <a href="#home">
+                    <div class="link-wrapper">
+                    <p>03</p>
+                    <h3>SOCIAL MEDIA MATERIALS</h3>
+                    </div>
+                    <div class="hover-text">
+                    <p>Whether it's a brand promotion, a captivating event announcement, or an enticing product showcase, these designs embody the power of visual storytelling in a digital era.
+                    </p>
+                    </div>
+                </a>
+                </li>
+
+                <li class="list-container">
+                    <a href="#home">
+                    <div class="link-wrapper">
+                    <p>04</p>
+                    <h3>UI DESIGN</h3>
+                    </div>
+                    <div class="hover-text">
+                    <p>A curated selection of innovative and visually stunning interfaces that combines functionality and aesthetics.</p>
+                    </div>
+                </a>
+                </li>
+
+                <li class="list-container">
+                    <a href="#home">
+                    <div class="link-wrapper">
+                    <p>05</p>
+                    <h3>RESOURCES</h3>
+                    </div>
+                    <div class="hover-text">
+                    <p>This include all the typeface, assets, and graphics that I made. Available in PERSONAL & COMMERCIAL USE.
+                    </p>
+                    </div>
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section class="video-footer" id="video-footer">
+        <video class="parallax-img" id="parallax-img" src="IMG/profile-vid.mp4" playsinline autoplay muted loop>
+        </video>
+    </section>
+
+
+    <section id="footer" class="footer">
+
+    <div class="footer-outer">
+        <div class="footer-inner-container-1">
+            <div id="footer-1" class="footer-1 upper-footer">
+                <p>GRAPHIC DESIGER</p>
+                <p><span class="dot"></span>AVAILABLE FOR WORK</p>
+            </div>
+            <div id="footer-2" class="footer-2 personal-portfolio">
+                <p>PERSONAL PORTFOLIO</p>
+                <p>2023</p>
+            </div>
+        </div>
+
+        <div class="cross">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="56" viewBox="0 0 32 56" fill="none" class="half-cross">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 0H0V56H4V30H32V26H4V0Z" fill="#757A4E"/>
+          </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="56" viewBox="0 0 32 56" fill="none" class="half-cross">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M32 0H28V26H0V30H28V56H32V0Z" fill="#757A4E"/>
+        </svg>
+        </div>
+
+        <div class="footer-inner-container-2">
+            <div id="footer-1" class="footer-1 lower-footer">
+                <div class="email-me dont-be-footer">
+                <p>DON'T BE SHY, SAY HELLO</p>
+                <img src="img/arrow-right-up.svg" alt="arrow">
+                </div>
+                <p>DESIGNED & BUILT BY:</p>
+            </div>
+            <div id="footer-2" class="footer-2 email-footer">
+                <p>ALDRINGEDARIA@GMAIL.COM</p>
+                <p>ALDRIN GEDARIA</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="last-footer">
+        <div class="border">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H16V0H1H0V1V16H1L1 1Z" fill="#111111"/>
+              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 15L0.999999 -4.37114e-08L-6.99382e-07 0L-4.37114e-08 15L0 16L1 16L16 16L16 15L1 15Z" fill="#111111"/>
+              </svg>
+        </div>
+        <div id="motto" class="motto">
+                <h1>let <span class="sticker-wrapper-2">
+                    <img src="img/sticker-wrapper-2.png" alt="sticker">
+                  </span>the visual<span class="sticker-wrapper-3">
+                    <img src="img/sticker-wrapper-3.png" alt="sticker">
+                  </span> speak</h1>
+        </div>
+        <div class="border">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 1L15 16L16 16L16 1L16 0L15 -4.37114e-08L0 -6.99382e-07L-4.37114e-08 1L15 1Z" fill="#111111"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 15L8.74228e-08 15L0 16L15 16L16 16L16 15L16 0L15 -8.74228e-08L15 15Z" fill="#111111"/>
+              </svg>
+        </div>
+    </div>
+
+    </section>
+
+
+    
+<script src="script.js"></script>
+</body>
+</html>
